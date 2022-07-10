@@ -1,7 +1,7 @@
 # SCJ.github.io
 加入 JQuery 動畫特效的版本 <br/>
 -- 專案製作時間：2022.07.08~2022.07.10 -- <br/>
-Github Pages:<a href="https://sc1314520.github.io/SCJ.github.io/"> 傳送門 </a>
+Github Pages:<a href="https://sc1314520.github.io/SCJ.github.io/"> 傳送門 </a><br/>
 與HTML/CSS純版面版本差異：<br/>
 1. JS下拉式選單 <br/>
 2. Swiper 橫幅輪播功能 <br/>
