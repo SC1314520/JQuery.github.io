@@ -11,12 +11,20 @@ $(document).ready(function() {
       event.preventDefault();
       $('.list-h1').toggleClass("animate__tada");
     });
-    $('.menu-2').click(function(event){
+    $('.menu-2>a').click(function(event){
       event.preventDefault();
       $('.dropdown2 ').slideToggle(600);
     });
-    $('.menu-3').click(function(event){
+    $('.menu-3>a').click(function(event){
       event.preventDefault();
       $('.dropdown3 ').slideToggle(600);
     });
+
+      $('.click-top').click(function(event) {
+       event.preventDefault();
+       $('html,body').animate({
+         scrollTop: 0
+       }, 1000);
+      });
+     
   });
