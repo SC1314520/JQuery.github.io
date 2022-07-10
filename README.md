@@ -1,5 +1,5 @@
 # SCJ.github.io
-加入 JQuery 動畫特效的版本
+加入 JQuery 動畫特效的版本 <br/>
 -- 專案製作時間：2022.07.08~2022.07.10 --
 Github Pages:<a href="https://sc1314520.github.io/SCJ.github.io/"> 傳送門 </a>
 與HTML/CSS純版面版本差異：<br/>
