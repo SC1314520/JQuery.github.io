@@ -12,14 +12,18 @@
     <meta property="og:url" content="https://SC1314520.github.io" />
     <meta property="og:image" content="images/html.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS & JS LINK-->
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="js/jquery2.2.3.min.js"></script>
     <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
     <link rel="stylesheet" href="css/html.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="icomoon (3)/style.css">
-
+    
     <title>Hex School</title>
 </head>
 
@@ -27,12 +31,12 @@
     <div class="click-top"><a href="#">TOP</a></div>
     <div class="top">
         <span class="icon-facebook"></span>
-        <div class="society-facebook"><a href="#">粉絲團</a></div>
+        <div class="society-facebook"><a href="https://www.facebook.com/hexschool/">粉絲團</a></div>
         <span class="icon-twitter"></span>
         <div class="society-twitter"><a href="#">追隨我們</a></div>
     </div>
     <div class="header">
-        <img src="images/logo.png" alt="">
+        <a href="index.html"><img src="images/logo.png" alt=""></a>
         <ul class="name">
             <li class="name"><a href="index.html">首頁</a></li>
             <li class="name menu-2"><a href="#">產品介紹</a>
@@ -58,18 +62,27 @@
             </li>
         </ul>
     </div>
-    <div class="banner-all">
-        <img src="images/banner.png" alt="">
-        <div class="banner-text">
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <a href="images/banner-1.png" data-lightbox="image-1" data-title="My caption" class="swiper-slide"><img src="images/banner-1.png" width=100%  height=450px alt=""></a>
+            <a href="images/banner-2.png" data-lightbox="image-1" data-title="My caption" class="swiper-slide"><img src="images/banner-2.png" width=100% height=450px alt=""></a>
+            <a href="images/banner-3.jpeg" data-lightbox="image-1" data-title="My caption" class="swiper-slide"><img src="images/banner-3.jpeg" width=100% height=450px alt=""></a>
+            <a href="images/banner-4.png" data-lightbox="image-1" data-title="My caption" class="swiper-slide"><img src="images/banner-4.png" width=100% height=450px alt=""></a>
         </div>
-        <div class="banner-content animate__animated ">
-            <p>六角學院<br/>讓您奠定良好的前端基礎</p>
-        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+    
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    
     </div>
     <div class="content">
         <div class="content-item">
             <div class="img-ant">
-                <img src="images/html.png" alt="">
+               <a href="images/html.png" data-lightbox="image-2" data-title="My caption"><img src="images/html.png" alt=""></a> 
                 <div class="img-ant-text">點選進入課程</div>
                 </div>
             <h2>Html 5 基礎教學</h2>
@@ -81,16 +94,16 @@
         </div>
         <div class="content-item">
             <div class="img-ant">
-                <img src="images/rwd.png" alt="">
+                <a href="images/rwd.png" data-lightbox="image-2" data-title="My caption"><img src="images/rwd.png" alt=""></a>
                 <div class="img-ant-text">點選進入課程</div>
-                </div>
+            </div>
             <h2>響應式網站設計</h2>
             <p>響應式網站設計(Responsive web design)，目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的。六角學院將會提供業界響應式開發方法，讓學生瞭解行動版開發技巧。</p>
         </div>
         <div class="content-item">
             <div class="img-ant">
-            <img src="images/jQuery.png" alt="">
-            <div class="img-ant-text">點選進入課程</div>
+                <a href="images/jQuery.png" data-lightbox="image-2" data-title="My caption"><img src="images/jQuery.png" alt=""></a>
+                <div class="img-ant-text">點選進入課程</div>
             </div>
             <h2>iQuery 實戰教學</h2>
             <div class="jQuery">本課程有以下特色</div>
@@ -181,6 +194,12 @@
             <p>電話：<span class="footer-text-color">0999123456</span></p>
         </div>
     </div>
+
+    
+
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
 </body>
 
 </html>

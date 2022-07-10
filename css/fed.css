@@ -62,14 +62,14 @@
     display: none;
     position: absolute;
     top:97px;
-    z-index:1;
+    z-index:2;
 }
 .dropdown3{
     background-color: #fff;
     display: none;
     position: absolute;
     top:97px;
-    z-index:1;
+    z-index:2;
 }
 .dropdown2 li , .dropdown3 li {
     border-bottom:0.1px solid gray;
@@ -82,6 +82,14 @@
 .dropdown2 li a:hover ,.dropdown3 li a:hover{
     background-color: rgb(115, 174, 140);
     color:white;
+}
+.swiper-container {
+    width: 1000px;
+    height:520px;
+    margin: 0 auto;
+    }
+.swiper-wrapper{
+    z-index:1;
 }
 .fed-front{
     width:1000px;
