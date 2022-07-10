@@ -13,11 +13,11 @@ $(document).ready(function() {
     });
     $('.menu-2>a').click(function(event){
       event.preventDefault();
-      $('.dropdown2 ').slideToggle(600);
+      $('.dropdown2 ').slideToggle(400);
     });
     $('.menu-3>a').click(function(event){
       event.preventDefault();
-      $('.dropdown3 ').slideToggle(600);
+      $('.dropdown3 ').slideToggle(400);
     });
 
       $('.click-top').click(function(event) {

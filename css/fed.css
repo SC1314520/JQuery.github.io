@@ -57,6 +57,32 @@
 .header .name a:hover{
     border-bottom: 3px solid rgb(105,153,16);
 }
+.dropdown2{
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    top:97px;
+    z-index:1;
+}
+.dropdown3{
+    background-color: #fff;
+    display: none;
+    position: absolute;
+    top:97px;
+    z-index:1;
+}
+.dropdown2 li , .dropdown3 li {
+    border-bottom:0.1px solid gray;
+}
+.dropdown2 li a , .dropdown3 li a{
+    text-decoration: none;
+    color:rgb(115, 174, 140);
+    display:block;
+}
+.dropdown2 li a:hover ,.dropdown3 li a:hover{
+    background-color: rgb(115, 174, 140);
+    color:white;
+}
 .fed-front{
     width:1000px;
     margin: 0 auto;
